@@ -10,3 +10,24 @@ Este proyecto es una página web para una hamburguesería que muestra el menú, 
 - **CSS** para el estilo y diseño.
 - **JavaScript** para funcionalidades interactivas.
 
+## Captura de Pantalla
+
+1. **Captura 1:**
+
+   ![Captura 1](design/captura1index.png)
+
+2. **Captura 2:**
+
+   ![Captura 2](design/captura2index.png)
+
+3. **Captura 3:**
+
+   ![Captura 3](design/captura3index.png)
+
+4. **Captura 4:**
+
+   ![Captura 4](design/captura4menu.png)
+
+5. **Captura 5:**
+
+   ![Captura 5](design/captura5domicilio.png)
