@@ -14,20 +14,20 @@ Este proyecto es una página web para una hamburguesería que muestra el menú, 
 
 1. **Captura 1:**
 
-   ![Captura 1](design/captura1index.png)
+   ![Captura 1](./Design/captura%1%index.png)
 
 2. **Captura 2:**
 
-   ![Captura 2](design/captura2index.png)
+   ![Captura 2](./Design/captura%2%index.png)
 
 3. **Captura 3:**
 
-   ![Captura 3](design/captura3index.png)
+   ![Captura 3](./Design/captura%3%index.png)
 
 4. **Captura 4:**
 
-   ![Captura 4](design/captura4menu.png)
+   ![Captura 4](./Design/captura%4%menu.png)
 
 5. **Captura 5:**
 
-   ![Captura 5](design/captura5domicilio.png)
+   ![Captura 5](./Design/captura%5%domicilio.png)
