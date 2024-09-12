@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domilicio</title>
+    <link rel="stylesheet" href="./css/domicilio.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="title">Burger LIK</h1>
+        <nav class="nav_container">
+          <ul>
+            <li class="nav_list"><a href="./index.html">Inicio</a></li>
+            <li class="nav_list"><a href="./menu.html">Menú</a></li>
+            <li class="nav_list"><a href="./domicilio.html">Domicilio</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="form-section"></section>
+    <div class="form-div">
+        <div class="form-info">
+            <h1>Realiza tu Pedido</h1>
+            <form id="orderForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <fieldset>
+                  <legend>Tipo de Hamburguesa:</legend>
+                  <label for="hamburguesa-clasica">
+                      <input type="radio" id="hamburguesa-clasica" name="burgerType" value="Hamburguesa Clásica" required>
+                      Hamburguesa Clásica
+                  </label>
+                  <label for="hamburguesa-bbq">
+                      <input type="radio" id="hamburguesa-bbq" name="burgerType" value="Hamburguesa BBQ">
+                      Hamburguesa BBQ
+                  </label>
+                  <label for="hamburguesa-veggie">
+                      <input type="radio" id="hamburguesa-veggie" name="burgerType" value="Hamburguesa Veggie">
+                      Hamburguesa Veggie
+                  </label>
+                  <label for="hamburguesa-doble">
+                      <input type="radio" id="hamburguesa-doble" name="burgerType" value="Hamburguesa Doble">
+                      Hamburguesa Doble
+                  </label>
+                  <label for="hamburguesa-mexicana">
+                      <input type="radio" id="hamburguesa-mexicana" name="burgerType" value="Hamburguesa Mexicana">
+                      Hamburguesa Mexicana
+                  </label>
+                  <label for="hamburguesa-champinones">
+                      <input type="radio" id="hamburguesa-champinones" name="burgerType" value="Hamburguesa con Champiñones">
+                      Hamburguesa con Champiñones
+                  </label>
+                  <label for="hamburguesa-teriyaki">
+                      <input type="radio" id="hamburguesa-teriyaki" name="burgerType" value="Hamburguesa Teriyaki">
+                      Hamburguesa Teriyaki
+                  </label>
+                  <label for="hamburguesa-cebolla-caramelizada">
+                      <input type="radio" id="hamburguesa-cebolla-caramelizada" name="burgerType" value="Hamburguesa con Cebolla Caramelizada">
+                      Hamburguesa con Cebolla Caramelizada
+                  </label>
+              </fieldset>
+              
+    
+                <label for="size">Tamaño:</label>
+                <select id="size" name="size" required>
+                    <option value="pequeño">Pequeño</option>
+                    <option value="mediano">Mediano</option>
+                    <option value="grande">Grande</option>
+                </select>
+    
+                <label for="extras">Extras:</label>
+                <textarea id="extras" name="extras" placeholder="Escribe tus extras aquí..."></textarea>
+    
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </div>
+        
+    </div>
+      
+    </section>
+    <!-- Footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-info">
+          <h3>Sobre Nosotros</h3>
+          <p>
+            Disfruta de nuestras deliciosas hamburguesas gourmet hechas con
+            ingredientes frescos y de alta calidad. ¡Estamos aquí para hacer de
+            cada comida una experiencia inolvidable!
+          </p>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contacto</h3>
+          <p><strong>Teléfono:</strong> +123 456 7890</p>
+          <p><strong>Email:</strong> contacto@burgerlik.com</p>
+          <p><strong>Dirección:</strong> Calle Ficticia 123, Ciudad, País</p>
+        </div>
+
+        <div class="footer-social">
+          <h3>Síguenos</h3>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png"
+              alt="Facebook"
+            />
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"
+              alt="Instagram"
+            />
+          </a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/twitter.png"
+              alt="Twitter"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Desarrollado por Odalis &copy; 2024</p>
+      </div>
+    </footer>
+    <script src="./js/form.js"></script>
+  </body>
+</html>

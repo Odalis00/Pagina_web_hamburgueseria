@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger LIK</title>
+    <link
+      rel="shortcut icon"
+      href="./img/bollo-de-hamburguesa.png"
+      type="image/x-icon"
+    />
+    <!-- <a href="https://www.flaticon.es/iconos-gratis/hamburguesa" title="hamburguesa iconos">Hamburguesa iconos creados por vectorsmarket15 - Flaticon</a> -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header">
+        <h1 class="title">Burger LIK</h1>
+        <nav class="nav_container">
+          <ul>
+            <li class="nav_list"><a href="./index.html">Inicio</a></li>
+            <li class="nav_list"><a href="./menu.html">Menú</a></li>
+            <li class="nav_list"><a href="./domicilio.html">Domicilio</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Banner -->
+    <section class="banner-container">
+      <div class="banner_content">
+        <h1 class="title-banner">¡La Hamburguesa de tus Sueños te Espera!</h1>
+        <p class="banner-subtitle">
+          Sabor inigualable, ingredientes frescos, y una experiencia deliciosa.
+        </p>
+        <a href="./domicilio.html" class="cta">¡Pídelo Ahora!</a>
+      </div>
+    </section>
+    <!-- Slider de opiniones -->
+    <section class="reviews-slider">
+      <h2>Lo Que Dicen Nuestros Clientes</h2>
+      <div class="slider-container">
+        <div class="slides">
+          <div class="slide">
+            <p>
+              "La hamburguesa más deliciosa que he probado. ¡Volveré sin duda!"
+            </p>
+            <p>- Juan Pérez</p>
+          </div>
+          <div class="slide">
+            <p>
+              "Un lugar increíble con un servicio excelente. Recomiendo el menú
+              especial."
+            </p>
+            <p>- Ana Gómez</p>
+          </div>
+          <div class="slide">
+            <p>
+              "Ambiente acogedor y comida exquisita. La mejor hamburguesa de la
+              ciudad."
+            </p>
+            <p>- Luis Fernández</p>
+          </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+    </section>
+    <!-- Seccion sobre informacion del restaurante -->
+    <section class="hamburgueseria">
+      <div class="container-inf">
+        <h2 class="sobre-nosotros">Sobre Nosotros</h2>
+        <p class="descripcion">
+          Bienvenidos a **La Mejor Hamburguesería**, donde cada hamburguesa es
+          una obra de arte culinaria. Nos especializamos en ofrecer hamburguesas
+          gourmet hechas con ingredientes frescos y de alta calidad. Ya sea que
+          prefieras una clásica hamburguesa con queso o una opción más
+          innovadora, tenemos algo para cada amante de las hamburguesas.
+        </p>
+
+        <h3 class="pedido-tittle">Cómo Hacer un Pedido</h3>
+        <p class="pedido">
+          Hacer un pedido con nosotros es fácil y rápido. Puedes elegir entre
+          las siguientes opciones:
+        </p>
+        <ul class="pedido-box">
+          <li>
+            <div class="box-content">
+              <p>
+                <strong>En el local:</strong> Ven a nuestro restaurante y haz tu
+                pedido en el mostrador.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="box-content">
+              <p>
+                <strong>Por teléfono:</strong> Llama a nuestro número y realiza
+                tu pedido. ¡Nos aseguraremos de que esté listo cuando llegues!
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="box-content">
+              <p>
+                <strong>En línea:</strong> Usa nuestra aplicación o sitio web
+                para hacer tu pedido y elige la opción de recogida o entrega.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Caracteristicas-->
+    <section class="C-Destacadas">
+      <h3 class="c-title">Características Destacadas</h3>
+      <div class="caracteristicas">
+        <div class="feature">
+          <h4>Ingredientes Frescos</h4>
+          <p>
+            Utilizamos solo los ingredientes más frescos y de alta calidad para
+            garantizar el mejor sabor en cada bocado.
+          </p>
+        </div>
+        <div class="feature">
+          <h4>Variedad de Opciones</h4>
+          <p>
+            Desde hamburguesas clásicas hasta opciones vegetarianas y veganas,
+            tenemos algo para todos.
+          </p>
+        </div>
+        <div class="feature">
+          <h4>Servicio Rápido</h4>
+          <p>
+            Disfruta de un servicio rápido y amable, ya sea que estés comiendo
+            aquí o recogiendo tu pedido para llevar.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Top products-->
+    <section class="best-burgers">
+      <div class="container-best-burgers">
+        <h2 class="title-best-burgers">Las Tres Mejores Hamburguesas</h2>
+
+        <div class="burger-list">
+          <div class="burger-item">
+            <img
+              src="./img/hamburguesa_clasica.jpg"
+              alt="Hamburguesa Clásica"
+            />
+            <!--Foto de <a href="https://unsplash.com/es/@allenrad?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Allen Rad</a> en <a href="https://unsplash.com/es/fotos/hamburguesa-de-queso-sobre-una-superficie-de-madera-9G_oJBKwi1c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+            <h3>Hamburguesa Clásica</h3>
+            <p>
+              Una deliciosa hamburguesa con carne de res 100% angus, queso
+              cheddar, lechuga, tomate y nuestra salsa especial.
+            </p>
+          </div>
+          <div class="burger-item">
+            <img src="./img/hamburguesa_bbq.jpg" alt="Hamburguesa BBQ" />
+            <!--Foto de <a href="https://unsplash.com/es/@yoadsh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Yoad Shejtman</a> en <a href="https://unsplash.com/es/fotos/un-primer-plano-de-un-sandwich-en-una-bandeja-Ii002MVqbnA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+            <h3>Hamburguesa BBQ</h3>
+            <p>
+              Hamburguesa jugosa con salsa BBQ, cebolla caramelizada, bacon
+              crujiente y queso suizo.
+            </p>
+          </div>
+          <div class="burger-item">
+            <img
+              src="./img/hamburguesa_vegetariana.jpg"
+              alt="Hamburguesa Veggie"
+            />
+            <!--Foto de <a href="https://unsplash.com/es/@runningonrealfood?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Deryn Macey</a> en <a href="https://unsplash.com/es/fotos/foto-de-enfoque-superficial-de-hamburguesa-kPLccIMtS8E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+            <h3>Hamburguesa Veggie</h3>
+            <p>
+              Para nuestros amigos vegetarianos, una hamburguesa con una
+              suculenta patty de vegetales, aguacate, espinacas y mayonesa
+              vegana.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-info">
+          <h3>Sobre Nosotros</h3>
+          <p>
+            Disfruta de nuestras deliciosas hamburguesas gourmet hechas con
+            ingredientes frescos y de alta calidad. ¡Estamos aquí para hacer de
+            cada comida una experiencia inolvidable!
+          </p>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contacto</h3>
+          <p><strong>Teléfono:</strong> +123 456 7890</p>
+          <p><strong>Email:</strong> contacto@burgerlik.com</p>
+          <p><strong>Dirección:</strong> Calle Ficticia 123, Ciudad, País</p>
+        </div>
+
+        <div class="footer-social">
+          <h3>Síguenos</h3>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png"
+              alt="Facebook"
+            />
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"
+              alt="Instagram"
+            />
+          </a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/twitter.png"
+              alt="Twitter"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Desarrollado por Odalis &copy; 2024</p>
+      </div>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+  </body>
+</html>
